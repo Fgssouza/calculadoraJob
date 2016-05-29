@@ -1,18 +1,26 @@
 #eloFinal {
 	position: relative;
 	left: 300px;
-	bottom: 265px;
+	bottom: 277px;
 }
 
 #Preco {
+	width: 150px;
+	text-align: center;
 	position: relative;
 	bottom: 265px;
-	left: 190px;
+	left: 150px;
+	font-size: 20px;
+	font-family: Helvetica;
+	height: 30px;
+	line-height: 30px;
 }
 
 p {
 	position: relative;
-	left: 60px;
+	left: 50px;
+	font-size: 20px;
+	font-family: Helvetica;
 }
 
 select {
