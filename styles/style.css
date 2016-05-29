@@ -1,0 +1,21 @@
+#eloFinal {
+	position: relative;
+	left: 300px;
+	bottom: 265px;
+}
+
+#Preco {
+	position: relative;
+	bottom: 265px;
+	left: 190px;
+}
+
+p {
+	position: relative;
+	left: 60px;
+}
+
+select {
+	position: relative;
+	left: 30px;
+}

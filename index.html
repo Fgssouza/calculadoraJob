@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<title>Elojob Express!</title>
+	</head>
+	<body>
+		<p>
+		<div id="eloInicial">
+			
+		<p>Elo Inicial:</p>
+		<form id = "formInicial">
+
+		<div class="dropdown">
+		<select id="ligas" name="ligas" onchange="calcularPreco()">
+  			<option value="5">Bronze</option>
+  			<option value="4">Prata</option>
+  			<option value="3">Ouro</option>
+  			<option value="2">Platina</option>
+  			<option value="1">Diamante</option>
+		</select>
+
+		<select id="divisoes" name="divisoes" onchange="calcularPreco()">
+			<option value="5">V</option>
+  			<option value="4">IV</option>
+  			<option value="3">III</option>
+  			<option value="2">II</option>
+  			<option value="1">I</option>
+  		</div>
+		</select>
+		<div><img id="imgInicial" src="images/bronze.png" alt="simbolo liga"></div>
+		</form>
+		</div>
+
+		</p>
+
+		<p>
+
+		<div id="eloFinal">
+		<p>Elo Final:</p>
+		<form id="formFinal">
+
+		<div class="dropdown">
+		<select id="ligasTarget" name="ligasTarget" onchange="calcularPreco()">
+  			<option value="5">Bronze</option>
+  			<option value="4">Prata</option>
+  			<option value="3">Ouro</option>
+  			<option value="2">Platina</option>
+  			<option value="1">Diamante</option>
+		</select>
+
+		<select id="divisoesTarget" name="divisoesTarget" onchange="calcularPreco()">
+			<option value="5">V</option>
+  			<option value="4">IV</option>
+  			<option value="3">III</option>
+  			<option value="2">II</option>
+  			<option value="1">I</option>
+		</select>
+		</div>
+		<div><img id="imgTarget" src="images/bronze.png" alt="simbolo liga"></div>
+		</form>
+		</div>
+
+		</p>
+		<div id="Preco">Preço: </div>
+		<script src="scripts/main.js" type="text/javascript"></script>
+	</body>
